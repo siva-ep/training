@@ -22,6 +22,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+          <repository>
+                  <id>devrepo</id>
+                  <name>Internal Repository</name>
+                  <url>http://192.168.0.102:8081/#browse/browse/components:maven-snapshots</url>          
+          </repository>
   
  
 	  
