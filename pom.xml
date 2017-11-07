@@ -29,13 +29,7 @@
          <goals>
           <goal>java</goal>
          </goals>
-         <configuration>
-          <mainClass>code.main.App</mainClass>
-          <arguments>
-           <argument>myArg1</argument>
-           <argument>myArg2</argument>
-          </arguments>
-         </configuration>
+         
         </execution>
        </executions>
       </plugin>
