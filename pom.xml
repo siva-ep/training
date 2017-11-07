@@ -14,26 +14,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  <distributionManagement>
-          <repository>
-                  <id>devrepo</id>
-                  <name>Internal Repository</name>
-                  <url>http://192.168.0.102:8081/#browse/browse/components:maven-snapshots</url>          
-          </repository>
-		  <snapshotRepository>
-                        <id>Snapshots</id>
-                             <name>snapshotRepo</name>
-                                  <url>http://192.168.0.102:8081/repository/maven-snapshots/</url>                                  ......................Put here, nexus Repository URL
-                                   </snapshotRepository>
-                           </distributionManagement>
   
  
 	  
