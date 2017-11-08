@@ -17,6 +17,21 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://localhost:8081/nexus/content/repositories/releases</url>
+  </repository>
+     <snapshotRepository>
+    <id>sivatheja</id>
+    <url>http://localhost:8081/nexus/content/repositories/sivatheja</url>
+  </snapshotRepository>
+
+    
+    
+</distributionManagement>
+
   
+    
   
 </project>
